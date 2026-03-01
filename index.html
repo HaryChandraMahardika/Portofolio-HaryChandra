@@ -4,17 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Portofolio Hary Chandra Mahardika</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header/Navbar -->
+
+  <!-- Navbar -->
   <header class="nav">
     <div class="container nav-inner">
-      <div class="brand">Hary Chandra Mahardika</div>
+      <div class="brand">Hary Chandra</div>
       <nav class="menu">
-        <a href="#personal">Personal</a>
-        <a href="#information">My Information</a>
-        <a href="#experience">Experience</a>
+        <a href="#information">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -22,66 +25,91 @@
   </header>
 
   <main>
-    <!-- Section 1: Personal Information -->
-    <section id="personal" class="section">
-      <div class="container">
-        <h1>Hary Chandra Mahardika</h1>
-        <p>Fullstack Web Developer Enthusiast</p>
-        <img src="Pas Photo.jpg" alt="Foto Profil" class="avatar">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Hary Chandra</span></h1>
+          <p>
+            Junior Fullstack Web Developer passionate about building
+            modern, responsive and impactful web applications.
+          </p>
+
+          <div class="cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="Pas Photo.jpg" alt="Foto Profil">
+        </div>
       </div>
     </section>
 
-    <!-- Section 2: Short Brief -->
+    <!-- ABOUT -->
     <section id="information" class="section">
       <div class="container">
-        <h2>My Information</h2>
-        <p>I am a junior fullstack web developer, currently expanding my skills in HTML, CSS, Tailwind, and JavaScript. So far, I have been developing simple websites as part of my learning journey, and I am eager to grow by building more complex and impactful projects.</p>
+        <h2>About Me</h2>
+        <p>
+          I am a junior fullstack web developer currently expanding my skills in
+          HTML, CSS, Tailwind, JavaScript, and backend development.
+          I enjoy building clean UI designs and structured backend systems.
+        </p>
       </div>
     </section>
 
-    <!-- Section 3: Project Showcase -->
+    <!-- PROJECTS -->
     <section id="projects" class="section">
-  <div class="container">
-    <h2>Project Showcase</h2>
-    <div class="grid">
-      <a class="card" href="https://github.com/HaryChandraMahardika/Task-Project-Website-Restoran-Simple" target="_blank">
-        <h3>Landing Page Restaurant Simple</h3>
-        <p>Website restoran dengan desain simple, modern dan responsif.</p>
-      </a>
-      <a class="card" href="https://github.com/HaryChandraMahardika/Portofolio-Website" target="_blank">
-        <h3>Portfolio Website</h3>
-        <p>Website pribadi yang berisi portofolio dan data diri beserta hasil project yang telah dikerjakan.</p>
-      </a>
-      <a class="card" href="https://github.com/HaryChandraMahardika/Landing-Page-Vidio.com" target="_blank">
-        <h3>Landing Page Clone Vidio.com</h3>
-        <p>Landing page vidio.com sederhana yang menyesuaikan dengan halaman home vidio.com.</p>
-      </a>
-      <a class="card" href="https://github.com/HaryChandraMahardika/FE-diStreaming-Mini-Project" target="_blank">
-        <h3>Mini Website diStreaming</h3>
-        <p>Website streaming film sederhana yang berisi berbagai movie yang telah rilis yang saat ini hanya tersedia list filmnya saja.</p>
-      </a>
-      <a class="card" href="https://github.com/HaryChandraMahardika/FI-Rental-Book-FE" target="_blank">
-        <h3>Rental Booking Project Website</h3>
-        <p>Website sederhana terkait rental barang elektronik yang terdiri dari 2 dashboard berbeda berdasarkan 2 role yang berbeda customer dan admin atau superadmin dan tersedia juga payment gateway yang dapat digunakan dalam melakukan percobaan penyewaan barang.</p>
-      </a>
-    </div>
-  </div>
-</section>
+      <div class="container">
+        <h2>Project Showcase</h2>
+
+        <div class="grid">
+          <a class="card" href="https://github.com/HaryChandraMahardika/Task-Project-Website-Restoran-Simple" target="_blank">
+            <h3>Restaurant Landing Page</h3>
+            <p>Modern and responsive restaurant website.</p>
+          </a>
+
+          <a class="card" href="https://github.com/HaryChandraMahardika/Portofolio-Website" target="_blank">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website showcasing my works.</p>
+          </a>
+
+          <a class="card" href="https://github.com/HaryChandraMahardika/Landing-Page-Vidio.com" target="_blank">
+            <h3>Vidio.com Clone</h3>
+            <p>Simple landing page clone of Vidio.com.</p>
+          </a>
+
+          <a class="card" href="https://github.com/HaryChandraMahardika/FE-diStreaming-Mini-Project" target="_blank">
+            <h3>Streaming Mini Website</h3>
+            <p>Movie streaming UI website with movie list.</p>
+          </a>
+
+          <a class="card" href="https://github.com/HaryChandraMahardika/FI-Rental-Book-FE" target="_blank">
+            <h3>Rental Booking System</h3>
+            <p>Fullstack rental system with multi-role dashboard and payment gateway.</p>
+          </a>
+        </div>
+      </div>
+    </section>
 
   </main>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer id="contact">
     <div class="container">
-      <p>Connect with me:</p>
+      <p>Connect with me</p>
+
       <div class="social">
-        <a href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
         <a href="https://github.com/HaryChandraMahardika" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/hary-chandra-mahardika-144971b7/" target="_blank">LinkedIn</a>
         <a href="https://Instagram.com/rychandika" target="_blank">Instagram</a>
       </div>
-      <p>© Hary Chandra Mahardika 2025</p>
+
+      <p>© 2025 Hary Chandra Mahardika</p>
     </div>
   </footer>
+
 </body>
 </html>
