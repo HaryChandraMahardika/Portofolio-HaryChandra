@@ -1,0 +1,47 @@
+.about-card {
+    padding: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-item {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.skill-item:hover {
+    border-color: var(--accent);
+    background: rgba(34, 211, 238, 0.1);
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .about-card {
+        padding: 2rem;
+    }
+}

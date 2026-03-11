@@ -1,48 +1,58 @@
-# Portofolio-Website
+# Portofolio Hary Chandra Mahardika
 
 Website portofolio pribadi yang berisi informasi tentang saya, proyek-proyek yang pernah saya kerjakan, serta kontak untuk berkolaborasi. Saat ini masih dalam proses pengembangan.
 
 Link Preview Website:
 
-
-Desain website asli diambil dari:  
+Desain website asli diambil dari:
 https://www.figma.com/design/96sHBkkmbOqHyfpSVyfGU5/Portofolio-Website-Template--Community-?node-id=0-1&p=f&t=wNYBchRU8KV78HNh-0
 
 
----
+## ✨ Features
 
-## ✨ Fitur Utama
+- **Berbasis React**: Dikembangkan menggunakan React.js dengan pendekatan functional components yang modern dan bersih.
+- **Modern UI**: Mengimplementasikan estetika Glassmorphism, gradien premium, serta tipografi yang fluid dan responsif.
+- **Animasi Dinamis:**: Dilengkapi dengan animasi CSS kustom, mulai dari efek morphing pada bagian Hero hingga transisi interaktif pada kartu proyek.
+- **Responsive Design**: Dioptimalkan sepenuhnya untuk berbagai perangkat, baik itu Ponsel, Tablet, maupun Desktop.
+- **Performa Cepat**: Menggunakan Vite + SWC untuk pengalaman pengembangan dan waktu build yang sangat instan.
 
--   Desain **Dark Theme** dengan aksen warna ungu `#9370DB`
--   **Responsif penuh** (desktop, tablet, mobile)
--   Hero section dengan nama, peran, dan deskripsi singkat
--   Siap deploy ke **GitHub Pages**, **Netlify**, atau **Vercel**
+## 🛠 Tech Stack
 
----
+- **React.js**
+- **Vite**
+- **Vanilla CSS (Custom Design System)**
+- **Google Fonts (Outfit)**
 
 ## 📁 Struktur Proyek
 git 
 
 ```
 portofolio-website
-├─ Pas Photo.jpg
-├─ index.html
-├─ README1.md
+├─ src
+|  ├─ public
+|  ├─ components
+|  ├─ App.jsx
+|  ├─ index.css
+|  ├─ main.jsx
+├─ README.md
 └─ style.css
 
 ```
 
----
+## 🚀 Getting Started
 
-## 🛠 Teknologi yang Digunakan
-
--   **HTML5** — struktur semantik
--   **Tailwind CSS** — styling, Flexbox, animasi, media query
-
-
----
-
----
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start development server:
+   ```bash
+   npm run dev
+   ```
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
 ## 👤 Tentang Saya
 
@@ -55,4 +65,4 @@ Portofolio ini adalah hasil belajar saya selama ini.
 
 ---
 
-© 2025 **Hary Chandra Mahardika** — All rights reserved.
+© 2026 **Hary Chandra Mahardika** — All rights reserved.
