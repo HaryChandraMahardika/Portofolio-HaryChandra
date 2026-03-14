@@ -11,7 +11,7 @@ const projects = [
     {
         title: 'Portfolio Website',
         desc: 'Personal portfolio website showcasing my works and professional journey.',
-        link: 'https://github.com/HaryChandraMahardika/Portofolio-Website',
+        link: 'https://github.com/HaryChandraMahardika/Portofolio-HaryChandra',
         tags: ['React', 'CSS', 'Vite']
     },
     {
@@ -30,6 +30,12 @@ const projects = [
         title: 'Rental Booking System',
         desc: 'Fullstack rental system with multi-role dashboard and integrated payment gateway.',
         link: 'https://github.com/HaryChandraMahardika/FI-Rental-Book-FE',
+        tags: ['Laravel', 'React', 'MySQL']
+    },
+    {
+        title: 'Mini Wallet',
+        desc: 'Developed a comprehensive full-stack e-wallet platform designed to facilitate seamless balance top-ups and secure real-time fund transfers between users.',
+        link: 'https://github.com/HaryChandraMahardika/FE-MiniWallet',
         tags: ['Laravel', 'React', 'MySQL']
     },
 ];
