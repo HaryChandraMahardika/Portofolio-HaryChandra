@@ -42,15 +42,23 @@
     color: var(--text-main);
 }
 
-.nav-cta {
+.nav-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-cv {
     padding: 0.6rem 1.5rem;
     font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
 
     .nav-links,
-    .nav-cta {
+    .nav-actions {
         display: none;
     }
 }
